@@ -22,10 +22,10 @@ let's get started
 
 3. Choose a template
 
-   - Template-Html-Tailwindcss [more](https://github.com/Marineux/cli-template-doc/tree/main/templates/Template-Vanila-TailwindCSS)
-   - Template-Vite-React-Tailwindcss [more](https://github.com/Marineux/cli-template-doc/tree/main/templates/template-vite-react-tailwindcss)
-   - Template-Vite-React-Typescript-Tailwindcss [more](https://github.com/Marineux/cli-template-doc/tree/main/templates/template-vite-react-tailwindcss-typescript)
-   - Template-next-tailwindcss [more](https://github.com/Marineux/cli-template-doc/tree/main/templates/template-next-tailwindcss)
+   - html-tailwindcss [more](https://github.com/Marineux/cli-template-doc/tree/main/templates/Template-Vanila-TailwindCSS)
+   - vite-react-tailwindcss [more](https://github.com/Marineux/cli-template-doc/tree/main/templates/template-vite-react-tailwindcss)
+   - vite-react-typescript-tailwindcss [more](https://github.com/Marineux/cli-template-doc/tree/main/templates/template-vite-react-tailwindcss-typescript)
+   - next-tailwindcss [more](https://github.com/Marineux/cli-template-doc/tree/main/templates/template-next-tailwindcss)
    
       <br />
 
