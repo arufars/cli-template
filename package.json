@@ -1,6 +1,6 @@
 {
-  "name": "cli-template-doc",
-  "version": "0.0.1",
+  "name": "cli-template-self",
+  "version": "0.0.2",
   "description": "this template ready",
   "main": "index.js",
   "type": "module",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Marineux/cli-template-doc"
+    "url": "https://github.com/Marineux/cli-template-self"
   },
   "keywords": [
     "cli",
@@ -23,9 +23,9 @@
   "author": "Marineux",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Marineux/cli-template-doc/issues"
+    "url": "https://github.com/Marineux/cli-template-self/issues"
   },
-  "homepage": "https://github.com/Marineux/cli-template-doc",
+  "homepage": "https://github.com/Marineux/cli-template-self",
   "dependencies": {
     "chalk": "^5.0.1",
     "chalk-animation": "^2.0.2",
