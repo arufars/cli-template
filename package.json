@@ -1,0 +1,44 @@
+{
+  "name": "cli-template-doc",
+  "version": "0.0.1",
+  "description": "this template ready",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "yarn start",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Marineux/cli-template-doc"
+  },
+  "keywords": [
+    "cli",
+    "template-react",
+    "generator",
+    "front-end",
+    "react"
+  ],
+  "author": "Marineux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marineux/cli-template-doc/issues"
+  },
+  "homepage": "https://github.com/Marineux/cli-template-doc",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.2",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.1",
+    "inquirer": "^9.1.0",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "auto-changelog": "^2.4.0",
+    "eslint": "^8.21.0",
+    "lite-server": "^2.6.1",
+    "prettier": "^2.7.1"
+  }
+}

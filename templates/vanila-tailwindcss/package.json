@@ -1,0 +1,21 @@
+{
+  "name": "template-vanila-tailwindcss",
+  "version": "1.0.0",
+  "description": "template html + tailwindcss",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "start": "tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
+  },
+  "author": "Marineux",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "eslint": "^8.21.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {}
+}
