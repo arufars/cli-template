@@ -6,6 +6,7 @@
   "type": "module",
   "bin": "./index.js",
   "scripts": {
+    "dev": "node index.js",
     "test": "yarn start",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },

@@ -1040,9 +1040,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cli-template-doc@workspace:.":
+"cli-template-self@workspace:.":
   version: 0.0.0-use.local
-  resolution: "cli-template-doc@workspace:."
+  resolution: "cli-template-self@workspace:."
   dependencies:
     "@babel/core": ^7.18.10
     auto-changelog: ^2.4.0
@@ -1056,7 +1056,7 @@ __metadata:
     nanospinner: ^1.1.0
     prettier: ^2.7.1
   bin:
-    cli-template-doc: ./index.js
+    cli-template-self: ./index.js
   languageName: unknown
   linkType: soft
 

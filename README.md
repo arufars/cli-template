@@ -11,7 +11,7 @@ let's get started
 1. Install Template Generator
 
 ```
- npx cli-template-doc
+ npx cli-template-self
 ```
 
 2. Create a new project
