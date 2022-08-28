@@ -7,8 +7,9 @@ Starter template React + Vite + TailwindCSS + Framer Motion❤
 Provide teknologi uses in the template:
 
 - React
+- React-Router-Dom
 - Vite
-- Tailwindcss 3 (https://tailwindcss.com/)
+- Tailwindcss 3 
 - Framer Motion ( Animation )
 - prettier-plugin-tailwindcss 
 - Prettier
