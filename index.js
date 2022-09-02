@@ -79,7 +79,7 @@ async function handleAnswers(isCorrect) {
 }
 
 async function winner() {
-//   console.clear();
+  console.clear();
   const msg = `Thank installation !\n `;
 
   figlet(msg, (err, data) => {
