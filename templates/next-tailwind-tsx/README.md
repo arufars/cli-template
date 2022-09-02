@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/).
 - next.js ( create-next-app )
 - typescript
 - tailwindcss
-- nextjs-progressbar
+- nextjs-progressbar ( progressbar animation )
 - @tailwindcss/typography
 - prettier-plugin-tailwindcss
 - prettier
