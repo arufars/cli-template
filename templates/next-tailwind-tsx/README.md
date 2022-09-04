@@ -12,7 +12,14 @@ This is a [Next.js](https://nextjs.org/).
 
 ## Getting Started
 
-First, run the development server:
+First, install dependency
+```bash
+npm
+# or
+yarn
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
