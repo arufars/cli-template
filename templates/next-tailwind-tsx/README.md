@@ -14,7 +14,7 @@ This is a [Next.js](https://nextjs.org/).
 
 First, install dependency
 ```bash
-npm
+npm i
 # or
 yarn
 ```
