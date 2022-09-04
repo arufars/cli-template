@@ -31,7 +31,7 @@ const Waifu = ({ data }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
       <footer className='p-10'>
         <a
-          href={process.env.NEXT_PUBLIC_URL}
+          href={process.env.VERCEL_NEXT_PUBLIC_URL}
           className='dark:text-gray-500 italic'>
           Check Out Api This Anim
         </a>
