@@ -2,7 +2,7 @@ import type { GetStaticProps, InferGetStaticPropsType, NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import Card, { PropsCard } from '../src/components/Card';
+import Card, { PropsCard } from 'src/components/Card';
 
 const Home: NextPage<PropsCard> = ({
   data,
