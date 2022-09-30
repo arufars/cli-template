@@ -1,6 +1,6 @@
 import cors from "cors";
-import dbConnect from "../../../lib/dbConnect";
-import Waifu from "../../../model/Waifu";
+import dbConnect from "@src/lib/dbConnect";
+import Waifu from "@src/model/Waifu";
 
 // Initializing the cors middleware
 const corsHandler = cors({
