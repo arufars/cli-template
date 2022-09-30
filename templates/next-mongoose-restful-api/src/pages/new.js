@@ -1,4 +1,5 @@
-import Form from "../components/From";
+import Form from "@src/components/From";
+
 
 
 

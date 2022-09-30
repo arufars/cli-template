@@ -59,7 +59,7 @@ const Form = ({ formId, charaForm, forNewChara = true }) => {
       if (!res.ok) {
         throw new Error(res.status);
       }
-
+      
       router.push("/");
     } catch (error) {
       setMessage("Failed to add pet");

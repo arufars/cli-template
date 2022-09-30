@@ -32,11 +32,11 @@ async function dbConnect() {
     cached.promise = mongoose.connect(MONGODB_URI, opts).then((mongoose) => {
       return mongoose;
     });
-    console.log("dbConnect");
   }
- 
+
   cached.conn = await cached.promise;
+  console.log("dbConnect");
   return cached.conn;
 }
-
+console.log("dbConnect");
 export default dbConnect;
