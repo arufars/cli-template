@@ -27,6 +27,7 @@ let's get started
    - vite-react-typescript-tailwindcss [more](https://github.com/Marineux/cli-template-doc/tree/main/templates/template-vite-react-tailwindcss-typescript)
    - next-tailwindcss [more](https://github.com/Marineux/cli-template-doc/tree/main/templates/template-next-tailwindcss)
    - next-tailwindcss-typescript [more](https://github.com/Marineux/cli-template-self/tree/main/templates/next-tailwind-tsx)
+   - next-mongoose-restful-api
    
       <br />
 
