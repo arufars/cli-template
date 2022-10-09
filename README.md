@@ -1,6 +1,8 @@
 # What is Template Generator?
-
-Template Generator is a ready-made tool to help you create templates for your projects.
+Template Generator is a ready-made tool to help you create templates for your projects.\
+<br />
+![](https://img.shields.io/github/last-commit/Marineux/cli-template?style=flat-square)
+![](https://img.shields.io/github/languages/count/Marineux/cli-template)
 
 # Getting Started
 
