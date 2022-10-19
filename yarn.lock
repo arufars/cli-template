@@ -1995,12 +1995,12 @@ __metadata:
   linkType: hard
 
 "gradient-string@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "gradient-string@npm:2.0.1"
+  version: 2.0.2
+  resolution: "gradient-string@npm:2.0.2"
   dependencies:
     chalk: ^4.1.2
     tinygradient: ^1.1.5
-  checksum: 889b099ed8f9fe50d3622ec5dcbceb2d5f9d48cd51ec91cadd10d4a4bd407cabcce88ee3cce8761961a2bd37f56991c3c94124771add0683e0b341c09455a1b1
+  checksum: 3b3cdfff83df0a82060bd3c3f32b911a0cdb22fb211a61f24ddf76660d670e79487db2a99fc0c2402c54cd7fe83cd224bf916a712e199c7f210f480313b4ce45
   languageName: node
   linkType: hard
 
