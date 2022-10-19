@@ -17,7 +17,7 @@ jobs:
     if: github.event.pull_request.user.login == 'dependabot[bot]' && contains(github.event.pull_request.labels.*.name, 'dependencies')
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@main
       with:
         fetch-depth: 1
     - id: enable-automerge
