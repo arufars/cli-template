@@ -965,15 +965,15 @@ __metadata:
   linkType: hard
 
 "chalk-animation@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "chalk-animation@npm:2.0.2"
+  version: 2.0.3
+  resolution: "chalk-animation@npm:2.0.3"
   dependencies:
     chalk: ^4.1.2
-    gradient-string: ^2.0.1
+    gradient-string: ^2.0.2
     meow: ^10.1.2
   bin:
     chalk-animation: cli.js
-  checksum: aa846c2d4561daf7ecdf7e1ff5ae37c1a622bb1680f80d065d73fd32910c6ad0c7ce20c05df837b300a909dbc45223064306e894f035b7c233bef916633234db
+  checksum: 7e87d49fb8df8510c4ca9f289feb75a48a4f4c422b034c09b96b383daf29173b905198159ac758389b4a953f9168ee4c54c1e8902e8e73464c59aea00f0fc752
   languageName: node
   linkType: hard
 
@@ -2029,6 +2029,16 @@ __metadata:
   linkType: hard
 
 "gradient-string@npm:^2.0.1":
+  version: 2.0.2
+  resolution: "gradient-string@npm:2.0.2"
+  dependencies:
+    chalk: ^4.1.2
+    tinygradient: ^1.1.5
+  checksum: 3b3cdfff83df0a82060bd3c3f32b911a0cdb22fb211a61f24ddf76660d670e79487db2a99fc0c2402c54cd7fe83cd224bf916a712e199c7f210f480313b4ce45
+  languageName: node
+  linkType: hard
+
+"gradient-string@npm:^2.0.2":
   version: 2.0.2
   resolution: "gradient-string@npm:2.0.2"
   dependencies:
