@@ -45,6 +45,5 @@ cd cool-my-template/templates
 - As you update your PR and apply changes, mark each conversation as resolved.
 
 ## Your PR is merged!
-<p>Congratulations 🎉🎉 The GitHub team thanks you ✨.</p>
-<p>Once your PR is merged, your contributions will be publicly visible on the GitHub</p>
-<p>Now that you are part of the GitHub docs community, see how else you can contribute to the docs.</p>
+<p>Congratulations 🎉🎉 thanks you ✨.</p>
+

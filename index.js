@@ -5,7 +5,7 @@ import inquirer from 'inquirer';
 import gradient from 'gradient-string';
 import chalkAnimation from 'chalk-animation';
 import { createSpinner } from 'nanospinner';
-import * as fs from 'fs';
+import fs from 'fs';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import figlet from 'figlet';
@@ -17,7 +17,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const CHOICES = fs.readdirSync(`${__dirname}/templates`);
 let playerName;
 
-const sleep = (ms = 2000) => new Promise((r) => setTimeout(r, ms));
+const sleep = (ms = 3000) => new Promise((r) => setTimeout(r, ms));
 
 async function welcome() {
   const rainbowTitle = chalkAnimation.rainbow(
@@ -94,8 +94,8 @@ async function thank() {
   
       cd ${playerName}
   
-      yarn 
-      yarn dev 
+      pnpm i
+      pnpm dev
       `);
 }
 

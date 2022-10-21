@@ -1,0 +1,28 @@
+node_modules
+.env
+.env.local
+.env.example
+
+# Log files
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+
+# OS generated files
+.DS_Store
+
+# WebStorm
+.idea
+
+
+# Visual Studio Code
+.vscode
+
+# Visual Studio Code Patch
+*.code-workspace
+
+  

@@ -1,14 +1,20 @@
 {
   "name": "cli-template-self",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "this template ready",
   "main": "index.js",
   "type": "module",
   "bin": "./index.js",
   "scripts": {
     "dev": "node index.js",
-    "test": "yarn start",
-    "version": "auto-changelog -p && git add CHANGELOG.md"
+    "test": "pnpm start",
+    "version:v": "auto-changelog -p --version  && git add CHANGELOG.md "
+  },
+  "auto-changelog": {
+    "output": "HISTORY.md",
+    "template": "keepachangelog",
+    "unreleased": true,
+    "commitLimit": false
   },
   "repository": {
     "type": "git",
@@ -28,17 +34,17 @@
   },
   "homepage": "https://github.com/Marineux/cli-template-self",
   "dependencies": {
-    "chalk": "^5.0.1",
-    "chalk-animation": "^2.0.2",
+    "chalk": "^5.1.2",
+    "chalk-animation": "^2.0.3",
     "figlet": "^1.5.2",
-    "gradient-string": "^2.0.1",
-    "inquirer": "^9.1.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.4",
     "nanospinner": "^1.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.10",
+    "@babel/core": "^7.19.6",
     "auto-changelog": "^2.4.0",
-    "eslint": "^8.21.0",
+    "eslint": "^8.25.0",
     "lite-server": "^2.6.1",
     "prettier": "^2.7.1"
   }

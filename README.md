@@ -30,6 +30,7 @@ let's get started
    - next-tailwindcss [more](https://github.com/Marineux/cli-template-doc/tree/main/templates/template-next-tailwindcss)
    - next-tailwindcss-typescript [more](https://github.com/Marineux/cli-template-self/tree/main/templates/next-tailwind-tsx)
    - next-mongoose-restful-api
+   - express-starter
    
       <br />
 
@@ -37,8 +38,8 @@ let's get started
 
 ```
  cd <project-name>
- yarn
- yarn dev
+ yarn or pnpm i or npm i
+ yarn dev or pnpm dev or npm run dev
 ```
 
 5. Enjoy the project! 😁❤
