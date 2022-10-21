@@ -22,10 +22,7 @@ function App() {
 
   return (
     <Wrapper>
-      <div
-        className='container mx-auto flex-1 flex-col items-center justify-center p-10 2xl:p-24
-    '
-      >
+      <div className='container mx-auto flex-1 flex-col items-center justify-center p-10 2xl:p-24'>
         <h1 className='text-center text-6xl '>
           Welcome to Template <span className='text-blue-500'>Self</span>
         </h1>
@@ -60,8 +57,7 @@ function App() {
                 key={id}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 1, ease: 'easeInOut', delay: i * 0.3 }}
-              >
+                transition={{ duration: 1, ease: 'easeInOut', delay: i * 0.3 }}>
                 <Card title={title} description={description} image={image} />
               </motion.div>
             ))
@@ -75,9 +71,8 @@ function App() {
             © {new Date().getFullYear()}, Built template with{' '}
             <a
               className='hover:text-blue-600 hover:underline'
-              href='https://github.com/Marineux/cli-template-doc'
-            >
-              Marineux
+              href='https://github.com/arufars/cli-template-doc'>
+              arufars
             </a>
           </p>
         </footer>

@@ -1,5 +1,4 @@
-import { useState } from 'react';
-
+import { useState } from 'react'
 
 // Hooks share state between components.
 /**
@@ -13,10 +12,10 @@ import { useState } from 'react';
     const { count } = usebetwen(useShareState)
  */
 export const useShareState = () => {
-    const [showAudio, setShowAudio] = useState<boolean>(false)
-  
-    return {
-      showAudio,
-      setShowAudio,
-    }
+  const [showAudio, setShowAudio] = useState<boolean>(false)
+
+  return {
+    showAudio,
+    setShowAudio,
   }
+}
