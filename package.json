@@ -1,6 +1,6 @@
 {
   "name": "cli-template-self",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "this template ready",
   "main": "index.js",
   "type": "module",
