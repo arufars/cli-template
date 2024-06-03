@@ -46,6 +46,6 @@
     "auto-changelog": "^2.4.0",
     "eslint": "^8.25.0",
     "lite-server": "^2.6.1",
-    "prettier": "^2.7.1"
+    "prettier": "^3.3.0"
   }
 }
