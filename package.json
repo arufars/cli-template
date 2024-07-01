@@ -44,7 +44,7 @@
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "auto-changelog": "^2.4.0",
-    "eslint": "^8.25.0",
+    "eslint": "^9.6.0",
     "lite-server": "^2.6.1",
     "prettier": "^2.7.1"
   }
